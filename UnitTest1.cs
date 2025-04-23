@@ -41,8 +41,8 @@ namespace NUnit1
 
             //Checkout info
             driver.FindElement(By.Id("first-name")).SendKeys("Juan");
-            driver.FindElement(By.Id("last-name")).SendKeys("Guarnizo");
-            driver.FindElement(By.Id("postal-code")).SendKeys("399");
+            driver.FindElement(By.Id("last-name")).SendKeys("Rodriguez");
+            driver.FindElement(By.Id("postal-code")).SendKeys("20245");
             Thread.Sleep(1000);
             driver.FindElement(By.Id("continue")).Click();
 
